@@ -110,7 +110,7 @@ text=(OUT/'emulator.log').read_text()
 assert not re.search(r'APP_FAULT|stack overflow|JS failed|app crash',text,re.I),text
 assert 'Face settings applied: preamble=1 caption=2 light=1' in text
 assert 'Weather snapshot accepted' in text
-assert text.count('Watchface kit 2.1.0 started')>=3,'No fresh app starts'
+assert len(re.findall(r'Watchface kit \S+ started',text))>=3,'No fresh app starts'
 assert text.count('Still allocated <0B>')>=3,'App did not exit cleanly'
 frames=[int(n) for n in re.findall(r'Frame \w+ (\d+)ms',text)]
 assert frames,'No frame timing logs'

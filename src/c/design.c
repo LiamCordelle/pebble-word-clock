@@ -1,4 +1,5 @@
 #include "lab.h"
+#include "kit/kit_calc.h"
 #include "face_settings.h"
 
 // Word Clock: a illuminated lit-letter grid (BRIEF.md section 8.7).
@@ -323,11 +324,7 @@ static void detail_row(GContext *ctx,GRect bounds,const char *label,const char *
     GRect(85,ink_y-10,bounds.size.w-97,30),GTextAlignmentRight,C_LIT);
 }
 static void detail_time(char *out,size_t n,int minute,bool is_24h) {
-  if(is_24h)lab_fmt_minute_of_day(out,n,minute,true);
-  else {
-    char t[12];lab_fmt_minute_of_day(t,sizeof(t),minute,false);
-    snprintf(out,n,"%s%s",t,minute<720 ? "AM" : "PM");
-  }
+  kit_format_event_time(out,n,minute,is_24h,0,KitMeridiemFull);
 }
 static void draw_detail(GContext *ctx,GRect bounds,const LabData *d) {
   graphics_context_set_fill_color(ctx,C_BG);graphics_fill_rect(ctx,bounds,0,GCornerNone);
@@ -340,7 +337,7 @@ static void draw_detail(GContext *ctx,GRect bounds,const LabData *d) {
   if(d->weather_ok)snprintf(value,sizeof(value),"%d.%d",d->uv_x10/10,d->uv_x10%10);else snprintf(value,sizeof(value),"--");
   detail_row(ctx,bounds,"UV",value,82);
   if(d->weather_ok) {
-    int temp=d->temp_fahrenheit ? (d->temp*9+(d->temp>=0 ? 2 : -2))/5+32 : d->temp;
+    int temp=d->temp_fahrenheit ? kit_temperature(d->temp,true) : d->temp;
     snprintf(value,sizeof(value),"%d %s",temp,d->temp_fahrenheit ? "F" : "C");
     snprintf(label,sizeof(label),"%s",lab_weather_text(d->weather_code));lab_upper(label);
   } else {snprintf(value,sizeof(value),"--");snprintf(label,sizeof(label),"NO WEATHER");}
