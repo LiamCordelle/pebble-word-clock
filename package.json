@@ -1,0 +1,63 @@
+{
+  "name": "pebble-word-clock",
+  "author": "Liam Cordelle",
+  "version": "1.0.1",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "@rebble/clay": "^1.0.8"
+  },
+  "pebble": {
+    "displayName": "Word Clock",
+    "uuid": "2eb5ff30-c184-4586-a72f-a8c0403f7f59",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "health",
+      "location",
+      "configurable"
+    ],
+    "messageKeys": [
+      "READY",
+      "REQUEST_WEATHER",
+      "WEATHER_ID",
+      "WEATHER",
+      "WEATHER_ERROR",
+      "TIME_MODE",
+      "TEMP_UNIT",
+      "STEP_GOAL",
+      "WORLD",
+      "WEATHER_ENABLED",
+      "DEMO_FALLBACK",
+      "LARGE_LABELS",
+      "PREAMBLE_LIT",
+      "CAPTION_MODE",
+      "LIGHT_THEME"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "MENU_ICON",
+          "file": "images/menu_icon.png",
+          "menuIcon": true
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "test": "python3 tests/run.py",
+    "build": "pebble build",
+    "render": "python3 tools/render_scenes.py",
+    "release": "python3 tools/release.py",
+    "kit:update": "python3 tools/release.py --update-only"
+  }
+}

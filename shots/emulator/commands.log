@@ -1,0 +1,245 @@
+pebble install /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/build/pebble-word-clock.pbw
+Installing app...
+App install succeeded.
+
+pebble install /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/build/pebble-word-clock.pbw
+Installing app...
+App install succeeded.
+
+pebble emu-steps 6842
+
+pebble emu-heart-rate 64
+
+pebble emu-battery --percent 76
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/face.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/face.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 324.7 KiB/s 0:00:00
+N/A%[=                                                    ] 402.5 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/detail.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/detail.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 336.3 KiB/s 0:00:00
+N/A%[=                                                    ] 409.0 KiB/s 0:00:00
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/timeout.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/timeout.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 316.7 KiB/s 0:00:00
+N/A%[=                                                    ] 399.7 KiB/s 0:00:00
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/settings-light.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/settings-light.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 334.7 KiB/s 0:00:00
+N/A%[=                                                    ] 411.4 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/settings-detail.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/settings-detail.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 341.5 KiB/s 0:00:00
+N/A%[=                                                    ] 412.2 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble emu-button click back
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/settings-persisted.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/settings-persisted.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 330.9 KiB/s 0:00:00
+N/A%[=                                                    ] 404.4 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/weather-detail.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/weather-detail.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 332.3 KiB/s 0:00:00
+N/A%[=                                                    ] 412.6 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble emu-button click back
+
+pebble emu-tap
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/weather-cached-detail.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/weather-cached-detail.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 328.2 KiB/s 0:00:00
+N/A%[=                                                    ] 404.7 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble emu-battery --percent 15
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/low-battery.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/low-battery.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 331.0 KiB/s 0:00:00
+N/A%[=                                                    ] 411.3 KiB/s 0:00:00
+
+pebble emu-battery --percent 62 --charging
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/charging.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/charging.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 344.1 KiB/s 0:00:00
+N/A%[=                                                    ] 415.8 KiB/s 0:00:00
+
+pebble emu-battery --percent 76
+
+pebble emu-bt-connection --connected no
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/disconnected.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/disconnected.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 414.7 KiB/s 0:00:00
+N/A%[=                                                    ] 426.6 KiB/s 0:00:00
+
+pebble emu-bt-connection --connected yes
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/final-face.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/final-face.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 431.7 KiB/s 0:00:00
+N/A%[=                                                    ] 434.0 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/final-detail.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/final-detail.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 452.8 KiB/s 0:00:00
+N/A%[=                                                    ] 449.1 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble emu-button click back
+
+pebble install /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/build/pebble-word-clock.pbw
+Installing app...
+App install succeeded.
+
+pebble emu-steps 6842
+
+pebble emu-heart-rate 64
+
+pebble emu-heart-rate 64
+
+pebble emu-heart-rate 64
+
+pebble emu-battery --percent 76
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/face.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/face.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 427.1 KiB/s 0:00:00
+N/A%[=                                                    ] 411.2 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/detail.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/detail.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 275.8 KiB/s 0:00:00
+N/A%[=                                                    ] 374.9 KiB/s 0:00:00
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/timeout.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/timeout.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 343.9 KiB/s 0:00:00
+N/A%[=                                                    ] 416.4 KiB/s 0:00:00
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/settings-light.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/settings-light.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 357.2 KiB/s 0:00:00
+N/A%[=                                                    ] 416.7 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/settings-detail.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/settings-detail.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 320.7 KiB/s 0:00:00
+N/A%[=                                                    ] 391.3 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/settings-persisted.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/settings-persisted.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 512.7 KiB/s 0:00:00
+N/A%[=                                                    ] 468.5 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/weather-detail.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/weather-detail.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 578.0 KiB/s 0:00:00
+N/A%[=                                                    ] 478.4 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble emu-tap
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/weather-cached-detail.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/weather-cached-detail.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 430.9 KiB/s 0:00:00
+N/A%[=                                                    ] 419.1 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble emu-battery --percent 15
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/low-battery.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/low-battery.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 406.4 KiB/s 0:00:00
+N/A%[=                                                    ] 389.1 KiB/s 0:00:00
+
+pebble emu-battery --percent 62 --charging
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/charging.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/charging.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 408.6 KiB/s 0:00:00
+N/A%[=                                                    ] 413.2 KiB/s 0:00:00
+
+pebble emu-battery --percent 76
+
+pebble emu-bt-connection --connected no
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/disconnected.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/disconnected.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 317.4 KiB/s 0:00:00
+N/A%[=                                                    ] 391.0 KiB/s 0:00:00
+
+pebble emu-bt-connection --connected yes
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/final-face.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/final-face.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 330.8 KiB/s 0:00:00
+N/A%[=                                                    ] 406.6 KiB/s 0:00:00
+
+pebble emu-tap
+
+pebble screenshot --no-open /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/final-detail.png
+Saved screenshot to /Users/lcordelle/Documents/pebble/pebble-watchface-agent-skill/pebble-word-clock/shots/emulator/final-detail.png
+N/A%[=                                                      ]   0.0 B/s 0:00:00
+N/A%[=                                                    ] 333.5 KiB/s 0:00:00
+N/A%[=                                                    ] 412.0 KiB/s 0:00:00
+
+pebble emu-tap

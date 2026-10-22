@@ -1,0 +1,49 @@
+[21:28:26] kit_shell.c:129> Watchface kit 2.1.0 started (scenario 3, touch window 0ms)
+[21:28:26] kit_shell.c:27> Frame face 11ms
+[21:28:26] kit_weather.c:38> Weather request 1792700907
+[21:28:26] kit_shell.c:27> Frame face 7ms
+[21:28:26] it_hr_history.c:60> HR minute history ready: data=0 partial=1
+[21:28:28] kit_settings.c:50> Kit settings applied: time=0 unit=0 goal=10000 world=0 weather=0 demo=0
+[21:28:28] kit_shell.c:27> Frame face 11ms
+[21:28:37] kit_shell.c:27> Frame face 12ms
+[21:28:38] kit_shell.c:27> Frame detail 10ms
+[21:28:46] kit_shell.c:27> Frame face 10ms
+[21:28:49] kit_settings.c:50> Kit settings applied: time=1 unit=1 goal=10000 world=0 weather=0 demo=0
+[21:28:49] face_settings.c:35> Face settings applied: preamble=1 caption=2 light=1
+[21:28:49] kit_shell.c:27> Frame face 6ms
+[21:28:51] kit_shell.c:27> Frame detail 4ms
+[21:28:54] kit_shell.c:27> Frame face 8ms
+[21:28:55] ocess_manager.c:487> Heap Usage for App <Word Clock: Total Size <111776B> Used <3036B> Still allocated <0B>
+[21:28:56] kit_shell.c:129> Watchface kit 2.1.0 started (scenario 3, touch window 0ms)
+[21:28:56] kit_shell.c:27> Frame face 8ms
+[21:28:56] kit_shell.c:27> Frame face 6ms
+[21:28:56] kit_shell.c:27> Frame face 6ms
+[21:28:56] it_hr_history.c:60> HR minute history ready: data=0 partial=1
+[21:28:59] kit_settings.c:50> Kit settings applied: time=0 unit=0 goal=10000 world=0 weather=1 demo=0
+[21:28:59] face_settings.c:35> Face settings applied: preamble=0 caption=0 light=0
+[21:28:59] kit_weather.c:38> Weather request 1792700937
+[21:28:59] kit_shell.c:27> Frame face 6ms
+[21:28:59] kit_weather.c:93> Weather snapshot accepted (48 hours)
+[21:28:59] kit_shell.c:27> Frame face 5ms
+[21:29:00] it_hr_history.c:60> HR minute history ready: data=1 partial=1
+[21:29:00] kit_shell.c:27> Frame face 6ms
+[21:29:01] kit_shell.c:27> Frame detail 8ms
+[21:29:03] kit_shell.c:27> Frame face 9ms
+[21:29:05] ocess_manager.c:487> Heap Usage for App <Word Clock: Total Size <111776B> Used <3036B> Still allocated <0B>
+[21:29:06] kit_shell.c:129> Watchface kit 2.1.0 started (scenario 3, touch window 0ms)
+[21:29:06] kit_shell.c:27> Frame face 7ms
+[21:29:06] kit_shell.c:27> Frame face 6ms
+[21:29:06] kit_weather.c:38> Weather request 1792700947
+[21:29:06] kit_shell.c:27> Frame face 7ms
+[21:29:06] it_hr_history.c:60> HR minute history ready: data=1 partial=1
+[21:29:07] kit_shell.c:27> Frame detail 8ms
+[21:29:10] kit_shell.c:27> Frame face 12ms
+[21:29:12] kit_shell.c:27> Frame face 7ms
+[21:29:15] kit_shell.c:27> Frame face 6ms
+[21:29:17] kit_shell.c:27> Frame face 6ms
+[21:29:42] kit_shell.c:27> Frame face 15ms
+[21:29:46] kit_shell.c:27> Frame face 16ms
+[21:29:49] kit_shell.c:27> Frame detail 10ms
+[21:29:51] kit_shell.c:27> Frame face 12ms
+[21:29:51] kit_weather.c:26> Weather watchdog expired
+[21:29:52] ocess_manager.c:487> Heap Usage for App <Word Clock: Total Size <111776B> Used <3036B> Still allocated <0B>

@@ -1,0 +1,15 @@
+{
+  "active_uuid": "2eb5ff30-c184-4586-a72f-a8c0403f7f59",
+  "frame_ms_min": 4,
+  "frame_ms_max": 16,
+  "fixture": "synthetic forecast via correlated AppMessage",
+  "profile": "temporary; original restored by parent",
+  "fresh_start_count": 3,
+  "clean_exit_count": 3,
+  "image_checks_passed": true,
+  "health_observed": {
+    "heart_rate": 64,
+    "steps": 6842
+  },
+  "app_faults": false
+}
