@@ -1,0 +1,97 @@
+{
+  "uuid": "2eb5ff30-c184-4586-a72f-a8c0403f7f59",
+  "fresh_default_goal": 8000,
+  "saved_goal_after_restart": 12500,
+  "synthetic_weather": true,
+  "weather_reply_count": 1,
+  "report": {
+    "frames": [
+      {
+        "view": "face",
+        "wall_ms": 10
+      },
+      {
+        "view": "face",
+        "wall_ms": 5
+      },
+      {
+        "view": "face",
+        "wall_ms": 5
+      },
+      {
+        "view": "face",
+        "wall_ms": 6
+      },
+      {
+        "view": "face",
+        "wall_ms": 6
+      },
+      {
+        "view": "face",
+        "wall_ms": 7
+      },
+      {
+        "view": "face",
+        "wall_ms": 5
+      },
+      {
+        "view": "face",
+        "wall_ms": 9
+      },
+      {
+        "view": "face",
+        "wall_ms": 12
+      },
+      {
+        "view": "face",
+        "wall_ms": 7
+      },
+      {
+        "view": "face",
+        "wall_ms": 6
+      },
+      {
+        "view": "face",
+        "wall_ms": 8
+      },
+      {
+        "view": "face",
+        "wall_ms": 5
+      },
+      {
+        "view": "face",
+        "wall_ms": 14
+      },
+      {
+        "view": "detail",
+        "wall_ms": 1011
+      },
+      {
+        "view": "face",
+        "wall_ms": 1021
+      }
+    ],
+    "clock_discontinuity_candidates": [],
+    "faults": [],
+    "starts": [
+      "2.2.0",
+      "2.2.0",
+      "2.2.0"
+    ],
+    "exits": [
+      {
+        "app": "Word Clock",
+        "allocated_bytes": 0
+      },
+      {
+        "app": "Word Clock",
+        "allocated_bytes": 0
+      },
+      {
+        "app": "Word Clock",
+        "allocated_bytes": 0
+      }
+    ],
+    "weather_acceptances": 1
+  }
+}
