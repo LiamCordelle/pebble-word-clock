@@ -120,3 +120,11 @@ Version 1.0.1 is the first store release, approved on 22 October 2026.
 A native 25×25 MENU_ICON is included in the PBW; the 80×80 and 144×144 images
 are supplied separately as store icons. Store uploads use emery_face.png and
 emery_detail.png, copied from the verified host-rendered screenshots.
+
+## Published release
+
+[Word Clock 1.0.1 on Pebble](https://apps.repebble.com/c9a837c5a40841b898ec9376) — published 22 October 2026.
+The live listing contains the face and detail gallery images and declares native
+launcher icon resource 1. The published PBW matches the clean, tested local PBW
+byte for byte. Public release metadata and build provenance are recorded in
+[store/published.json](store/published.json).

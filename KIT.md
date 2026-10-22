@@ -46,3 +46,11 @@ second weather reply exercises the watchdog while retaining the valid cache.
 
 The initial Back-only restart check was replaced because Back did not terminate
 the face. Only the explicit-stop run is accepted as persistence evidence.
+
+## Release 1.0.1 — 22 October 2026
+
+Shared kit 2.1.0 is committed/pushed as ae4bbc8aeca34eed1e7bfad2372bd5022f38d623.
+The consumer's release workflow passed from a clean committed tree, including
+all tests, live build and 48 renders. Word Clock 1.0.1 is published on Pebble;
+store/published.json records its exact source/kit revisions and matching local
+and public PBW hashes. No other consumer checkout was modified.

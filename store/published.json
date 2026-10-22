@@ -1,0 +1,48 @@
+{
+  "version": "1.0.1",
+  "app_id": "c9a837c5a40841b898ec9376",
+  "store_url": "https://apps.repebble.com/c9a837c5a40841b898ec9376",
+  "github_url": "https://github.com/LiamCordelle/pebble-word-clock",
+  "download_url": "https://appstore-api.repebble.com/api/assets/pbw/c9a837c5a40841b898ec9376/1.0.1/dd856f13-9dda-4bfa-8005-91d83d3a9397.pbw",
+  "uuid": "2eb5ff30-c184-4586-a72f-a8c0403f7f59",
+  "published_date": "2026-10-22T20:37:07.532",
+  "visible": true,
+  "native_launcher_icon_resource_id": 1,
+  "native_launcher_icon_size": [
+    25,
+    25
+  ],
+  "supplied_store_icon_sizes": [
+    [
+      80,
+      80
+    ],
+    [
+      144,
+      144
+    ]
+  ],
+  "gallery_count": 2,
+  "local_pbw_sha256": "c1ef717fb500171469587ab6def29dee04c141be32ff448f02209331f7b44bda",
+  "published_pbw_sha256": "c1ef717fb500171469587ab6def29dee04c141be32ff448f02209331f7b44bda",
+  "published_pbw_contents_verified": true,
+  "kit_version": "2.1.0",
+  "kit_revision": "ae4bbc8aeca34eed1e7bfad2372bd5022f38d623",
+  "source_revision": "26fc16636b863d5c66c91d8bbfcea4d349a3bdaa",
+  "release_build_provenance": {
+    "created_utc": "2026-10-22T20:35:36.698597+00:00",
+    "app": "pebble-word-clock",
+    "version": "1.0.1",
+    "uuid": "2eb5ff30-c184-4586-a72f-a8c0403f7f59",
+    "app_revision": "26fc16636b863d5c66c91d8bbfcea4d349a3bdaa",
+    "app_modified": false,
+    "kit_version": "2.1.0",
+    "kit_revision": "ae4bbc8aeca34eed1e7bfad2372bd5022f38d623",
+    "kit_repository": "https://github.com/LiamCordelle/pebble-watchface-kit.git",
+    "pbw_sha256": "c1ef717fb500171469587ab6def29dee04c141be32ff448f02209331f7b44bda",
+    "scenario": 3,
+    "touch_window_ms": 0,
+    "tests_passed": true,
+    "renders_checked": true
+  }
+}
