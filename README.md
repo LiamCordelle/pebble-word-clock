@@ -42,7 +42,7 @@ Clay settings apply live and persist on the watch and phone:
 - Soft or fully lit IT IS; steps/date/battery caption; dark or light ground.
 - Watch-default, 12-hour or 24-hour format (sun/second-zone values; the English
   word grid naturally uses twelve hours and a soft AM/PM marker).
-- Celsius/Fahrenheit, step goal (10,000), weather on/off, health demo fallback
+- Celsius/Fahrenheit, step goal (8,000), weather on/off, health demo fallback
   (off), NZ/UTC/London/New York/Los Angeles/Tokyo/Sydney second zone.
 
 No seconds or animation. Health events update the shared model at most once per

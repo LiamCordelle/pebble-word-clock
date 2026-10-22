@@ -54,3 +54,11 @@ The consumer's release workflow passed from a clean committed tree, including
 all tests, live build and 48 renders. Word Clock 1.0.1 is published on Pebble;
 store/published.json records its exact source/kit revisions and matching local
 and public PBW hashes. No other consumer checkout was modified.
+
+## 8,000-step default — 22 October 2026
+
+Updated to shared kit 2.1.2 (`71a935d`). Fresh watch/phone settings and
+face fallbacks use 8,000 steps. Valid saved goals are preserved. Protocol keys,
+persistence layouts and explicit screenshot fixtures are unchanged. Shared and
+consumer tests, all five render suites and fresh-profile QEMU checks cover the
+new default and a saved 12,500-step goal across explicit stop/start.
