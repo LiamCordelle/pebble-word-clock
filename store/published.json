@@ -1,48 +1,43 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "app_id": "c9a837c5a40841b898ec9376",
   "store_url": "https://apps.repebble.com/c9a837c5a40841b898ec9376",
-  "github_url": "https://github.com/LiamCordelle/pebble-word-clock",
-  "download_url": "https://appstore-api.repebble.com/api/assets/pbw/c9a837c5a40841b898ec9376/1.0.1/dd856f13-9dda-4bfa-8005-91d83d3a9397.pbw",
   "uuid": "2eb5ff30-c184-4586-a72f-a8c0403f7f59",
-  "published_date": "2026-10-22T20:37:07.532",
   "visible": true,
-  "native_launcher_icon_resource_id": 1,
-  "native_launcher_icon_size": [
-    25,
-    25
-  ],
-  "supplied_store_icon_sizes": [
-    [
-      80,
-      80
-    ],
-    [
-      144,
-      144
-    ]
-  ],
-  "gallery_count": 2,
-  "local_pbw_sha256": "c1ef717fb500171469587ab6def29dee04c141be32ff448f02209331f7b44bda",
-  "published_pbw_sha256": "c1ef717fb500171469587ab6def29dee04c141be32ff448f02209331f7b44bda",
-  "published_pbw_contents_verified": true,
-  "kit_version": "2.1.0",
-  "kit_revision": "ae4bbc8aeca34eed1e7bfad2372bd5022f38d623",
-  "source_revision": "26fc16636b863d5c66c91d8bbfcea4d349a3bdaa",
+  "is_published": true,
+  "has_pbw": true,
+  "published_date": "2026-10-22T21:03:26.481",
+  "release_notes": "New installations now default to an 8,000-step daily goal. Existing saved step goals are preserved. Includes the latest shared watchface kit.",
+  "gallery_counts": {
+    "emery": 2
+  },
+  "screenshots_unchanged": true,
+  "kit_version": "2.1.2",
+  "kit_revision": "71a935de2c9554d8fa29570ceece633b7bd0214a",
+  "source_revision": "0b15994ca95c60c7f26bc80b16c9b00cd8d2f51d",
+  "local_pbw_sha256": "f832e0641bb1561911d8c1a0ab32cb4e0e86526ea266e9416b4a0c420466641c",
   "release_build_provenance": {
-    "created_utc": "2026-10-22T20:35:36.698597+00:00",
+    "created_utc": "2026-10-22T21:02:28.270576+00:00",
     "app": "pebble-word-clock",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "uuid": "2eb5ff30-c184-4586-a72f-a8c0403f7f59",
-    "app_revision": "26fc16636b863d5c66c91d8bbfcea4d349a3bdaa",
+    "app_revision": "0b15994ca95c60c7f26bc80b16c9b00cd8d2f51d",
     "app_modified": false,
-    "kit_version": "2.1.0",
-    "kit_revision": "ae4bbc8aeca34eed1e7bfad2372bd5022f38d623",
+    "kit_version": "2.1.2",
+    "kit_revision": "71a935de2c9554d8fa29570ceece633b7bd0214a",
     "kit_repository": "https://github.com/LiamCordelle/pebble-watchface-kit.git",
-    "pbw_sha256": "c1ef717fb500171469587ab6def29dee04c141be32ff448f02209331f7b44bda",
+    "pbw_sha256": "f832e0641bb1561911d8c1a0ab32cb4e0e86526ea266e9416b4a0c420466641c",
     "scenario": 3,
     "touch_window_ms": 0,
     "tests_passed": true,
     "renders_checked": true
-  }
+  },
+  "runtime_default_verification": {
+    "app": "pebble-word-clock",
+    "uuid": "2eb5ff30-c184-4586-a72f-a8c0403f7f59",
+    "fresh_default": 8000,
+    "persisted_goal_verified": 12500,
+    "no_faults": true
+  },
+  "verification": "Authenticated store record confirms the expected existing app, visible published version, PBW and retained gallery. Local release hash is unchanged after the publish build."
 }

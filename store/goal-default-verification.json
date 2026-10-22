@@ -1,0 +1,7 @@
+{
+  "app": "pebble-word-clock",
+  "uuid": "2eb5ff30-c184-4586-a72f-a8c0403f7f59",
+  "fresh_default": 8000,
+  "persisted_goal_verified": 12500,
+  "no_faults": true
+}
