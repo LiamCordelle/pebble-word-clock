@@ -29,7 +29,7 @@ Ordinary builds use live data (`LAB_SCENARIO=3`) and do not fetch dependencies.
 Do not ship a scenario build.
 
 The kit is a Git submodule plus source symlinks, as in Mondrian and Underground.
-See [KIT.md](KIT.md). Kit 2.1.0 is committed and shared on GitHub; the submodule
+See [KIT.md](KIT.md). Kit 2.4.1 is committed and shared on GitHub; the submodule
 pins its exact revision. `npm run release` fetches current kit main, tests, cleans
 and builds live data. `npm run release -- --pinned` skips the fetch for a
 reproducible historical build. Both refuse dirty or unpublished kit changes.
@@ -131,8 +131,21 @@ byte for byte. Public release metadata and build provenance are recorded in
 
 ## Shared behaviour maintenance
 
-This release uses kit 2.2.0 for shared data and calculations.
+This release uses kit 2.4.1 for shared data and calculations.
 Artwork and explicit render fixtures remain face-owned. Run
 `tools/emulator_smoke.py` with pebble-tool's Python for common runtime checks;
 local emulator/visual checkers retain the face-specific assertions.
 The published 8,000-step-default release is recorded in store/published.json.
+
+## 1.1.0 timezone support
+
+The second-timezone picker now matches Mondrian: search all 597 IANA timezone
+identifiers and aliases by city, region or IANA name, including Mumbai,
+Abu Dhabi and Moscow. Open Display → Find a time zone, choose a result in
+Second time zone, then save. Common choices appear first; filtering and clearing
+search preserve the selected zone. Search text is not saved.
+
+Shared kit 2.4.1 provides offline daylight-saving transitions and half-hour and
+quarter-hour offsets using tzdata 2026f (2020–January 2038). Existing selections,
+goals and face settings survive the upgrade. See [KIT.md](KIT.md) for the exact
+dependency revision and validation, and build/ for the 1.1.0 PBW and provenance.

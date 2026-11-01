@@ -22,6 +22,11 @@ for name,values in [('12h',{'12H':1}),('midnight',{'HOUR':0,'MINUTE':2}),
  for detail in [False,True]:scenes.append((name+('-detail' if detail else ''),0,detail,values))
 for name,code in [('sun',0),('partly',2),('cloud',3),('rain',63),('snow',73),('storm',95),('fog',45)]:
  scenes.append(('weather-'+name,0,True,{'WEATHER_CODE':code}))
+
+for name,zone in [('mumbai', 289), ('abu-dhabi', 268), ('moscow', 463), ('kathmandu', 286), ('chatham', 533), ('kiritimati', 548), ('utc-minus12', 400)]:
+ for detail in (False,True):
+  for h12 in (0,1):scenes.append(('world-'+name+('-detail' if detail else '')+('-12h' if h12 else ''),0,detail,{'WORLD':zone,'12H':h12}))
+
 def render(scene):
  name,scenario,detail,values=scene;env=os.environ.copy()
  for k,v in values.items():env['WORDCLOCK_'+k]=str(v)

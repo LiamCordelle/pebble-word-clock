@@ -60,7 +60,11 @@ static const uint8_t STRESS_HR_BY_HOUR[24] = {
 // --- Shared calendar projection for fixed screenshot scenarios --------
 
 static void fill_world_time(LabData *d) {
+#ifdef LAB_HOST_RENDER
+  kit_world_fill(d,preview_int("WORDCLOCK_WORLD",0));
+#else
   kit_world_fill(d,0);
+#endif
 }
 
 

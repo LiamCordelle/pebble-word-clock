@@ -16,4 +16,12 @@ var saved=settings.load(store);
 assert.strictEqual(saved.PREAMBLE_LIT,1);assert.strictEqual(saved.CAPTION_MODE,2);
 assert.strictEqual(saved.LIGHT_THEME,1);assert.strictEqual(saved.STEP_GOAL,18000);
 assert.strictEqual(settings.normalize({CAPTION_MODE:99}).CAPTION_MODE,2);
+assert.strictEqual(options.fullTimezones,true);
+var displayItems=require('../src/pkjs/kit/config')(options)[1].items;
+assert.strictEqual(displayItems.find(function(item){return item.messageKey==='WORLD';}).options.length,597);
+assert(displayItems.some(function(item){return item.id==='kit-timezone-search';}));
+[0,3,6,268,289,596].forEach(function(zone){
+  settings.save(store,Object.assign(settings.load(store),{WORLD:zone}));
+  assert.strictEqual(settings.load(store).WORLD,zone);
+});
 console.log('Word Clock configuration: key numbering, defaults, normalization and persistence passed.');
