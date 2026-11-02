@@ -105,6 +105,21 @@ formats. Fresh defaults remained 8,000. All nine app exits freed allocations;
 no runtime faults were reported. The owned emulator was stopped and the
 original SDK profile restored. Screenshots and reports are in
 `shots/emulator-timezones/`. Default prototype artwork still passes its pixel checks.
-PBW SHA-256: `de48923734167263c30e1b847f91f314e1ad88f65258e74deb1f0a3609211393`.
+Pre-commit QEMU-tested PBW SHA-256: `de48923734167263c30e1b847f91f314e1ad88f65258e74deb1f0a3609211393`.
 Release build provenance records the consumer source revision and dependency.
 Store publication and verification are recorded in store/published.json.
+
+## Published 1.1.0 — 1 November 2026
+
+Source release commit: `13ee2aca9f55fcc3b2ceb49dc811cc426097e1d9`.
+Published build SHA-256: `c405e4b52a2fd4dc882a1c1ff6132f0188c21d58576dcd63870071b5e9108210`.
+The committed-source clean build changes SDK resource timestamps and JSON
+capability ordering; executable bytes outside the SDK resource-timestamp field,
+resources and phone code match the broader eight-zone runtime-tested build.
+The publish command uploaded this final artifact without changing its hash.
+Authenticated store records confirm the existing app, visible published 1.1.0,
+PBW and retained gallery. See `store/published.json` and `store/publish-1.1.0.log`.
+Final uploaded-artifact QEMU verification also passes Mumbai (WORLD 289),
+Clay save/restart, retained 12,500-step goal, pixel-exact clock glyphs and
+clean exits without runtime faults. Its screenshots and report are in
+`shots/emulator-publication/`; the emulator is stopped and SDK profile restored.
